@@ -83,6 +83,17 @@ small, .small, .f5 {
     font-size: 1rem;
   }
 }
+
+figcaption {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-style: italic;
+}
+
+figure.right {
+  margin-top: .5rem;
+}
+
 @media screen and (min-width: 64em) {
   .h1 {
     font-size: 6rem;
@@ -373,9 +384,9 @@ strong, .bold {
 }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
-  .p-responsive {
+  /*.p-responsive {
     padding: 3rem;
-  }
+  }*/
 
   .px-responsive {
     padding-right: 3rem;
@@ -388,9 +399,9 @@ strong, .bold {
   }
 }
 @media screen and (min-width: 64em) {
-  .p-responsive {
+  /*.p-responsive {
     padding: 4rem;
-  }
+  }*/
 
   .px-responsive {
     padding-right: 4rem;
