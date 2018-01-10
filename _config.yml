@@ -4,7 +4,6 @@ author:      Jerry Orr
 description: ""
 baseurl:     ""
 url:         "http://sundry.jerryorr.com"
-url:         "http://pixyll.com"
 date_format: "%b %-d, %Y"
 
 # Google services
