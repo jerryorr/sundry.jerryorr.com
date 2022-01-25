@@ -3,7 +3,8 @@ layout:     post
 title:      Senator Regan not ready to support gerrymandering reform bill
 date:       2017-03-03
 summary:    PA Senate Bill 22 aims to end gerrymandering by reforming the redistricting process, but Senator Regan hasn't committed to supporting it
-categories: 
+categories:
+tags:       politics 
 author:     jerry_orr
 ---
 [Senator Mike Regan](http://www.legis.state.pa.us/cfdocs/legis/home/member_information/senate_bio.cfm?id=1646) represents District 31 in the Pennsylvania Senate, an oddly shaped district that includes parts of Cumberland and York counties. Senator Regan is also on the State Government Committee, the first stop for [Senate Bill 22](http://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?sYear=2017&sInd=0&body=S&type=B&bn=22), which aims to end gerrymandering by reforming the legislative redistricting process. As a resident of Senator Regan’s district, I wanted to know his position on PA Senate Bill 22.
@@ -22,7 +23,3 @@ I certainly hope he does, because the current redistricting process is most defi
 If you support SB22 and redistricting reform, I encourage you to [contact your state senator](http://www.legis.state.pa.us/cfdocs/legis/home/findyourlegislator/), particularly if he or she is on the [State Government Committee](http://www.legis.state.pa.us/cfdocs/cteeInfo/index.cfm?CteeBody=S&Code=41), like Senator Regan. We have a real chance to fix the deadlock in Harrisburg, but change will only happen if citizens demand it.
 
 You can learn more about the fair district movement at [fairdistrictspa.com](http://www.fairdistrictspa.com)
-
-
-
-
