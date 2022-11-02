@@ -13,7 +13,7 @@ I'm fascinated by the [Condor Cluster](https://phys.org/news/2010-12-air-playsta
   <img src="images/ps3-cluster.jpg" alt="PlayStation 3 cluster"/>
 </figure>
 
-I mean, just cluster itself is pretty cool. Used for image analysis, it cut processing time from several hours to just seconds. But why did they use PS3s?
+I mean, just the cluster itself is pretty cool. Used for image analysis, it cut processing time from several hours to just seconds. But why did they use PS3s?
 
 Two big reasons: the PS3 could run Linux, and it was WAY cheaper than similar hardware. Apparently a $400 PS3 performed equivalently to $10,000 of comparable hardware. The PS3s performed well because... well, graphics processing was kind of their jam. That's not surprising.
 
