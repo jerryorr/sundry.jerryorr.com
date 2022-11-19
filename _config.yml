@@ -28,7 +28,7 @@ enable_anchorjs: false
 # Facebook Page integration
 # (for instant articles and other stuff)
 fb_page: false
-fb_page_id: 
+fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
@@ -45,6 +45,7 @@ github_username:
 bitbucket_username:
 stackoverflow_id:
 twitter_username: JerryOnJava
+mastodon_profile: https://fosstodon.org/@jerryorr
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -106,7 +107,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    /:year/:month/:day/:title
-paginate:     3
+paginate:     5
 sass:
   style: compressed
 gems:
@@ -115,7 +116,7 @@ gems:
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
 
-authors: 
+authors:
   jerry_orr:
     name: Jerry Orr
     link: http://twitter.com/jerryonjava

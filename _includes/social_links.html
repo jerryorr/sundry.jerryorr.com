@@ -13,6 +13,9 @@
     {% if site.twitter_username %}
       <a class="fa fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"></a>
     {% endif %}
+    {% if site.mastodon_profile %}
+      <a class="mastodon-profile" rel="me" href="{{site.mastodon_profile}}"><img src="/images/mastodon-icon-purple.svg"></a>
+    {% endif %}
     {% if site.skype_username %}
       <a class="fa fa-skype" href="skype:{{ site.skype_username }}?userinfo"></a>
     {% endif %}

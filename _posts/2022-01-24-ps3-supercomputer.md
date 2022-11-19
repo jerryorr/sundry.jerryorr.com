@@ -10,7 +10,7 @@ author:     jerry_orr
 I'm fascinated by the [Condor Cluster](https://phys.org/news/2010-12-air-playstation-3s-supercomputer.html), a US Air Force supercomputer made from 1,760 PlayStation 3s.
 
 <figure class="right" style="max-width: 50%">
-  <img src="images/ps3-cluster.jpg" alt="PlayStation 3 cluster"/>
+  <img src="/images/ps3-cluster.jpg" alt="PlayStation 3 cluster"/>
 </figure>
 
 I mean, just the cluster itself is pretty cool. Used for image analysis, it cut processing time from several hours to just seconds. But why did they use PS3s?

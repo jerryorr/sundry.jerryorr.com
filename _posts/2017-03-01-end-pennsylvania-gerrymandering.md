@@ -14,7 +14,7 @@ Think the Pennsylvania state legislature is doing a good job? Despite constant b
 If we’re so unhappy with our representatives, why do they keep getting re-elected? The culprit is [gerrymandering](https://en.wikipedia.org/wiki/Gerrymandering), when district boundaries are intentionally drawn to create an advantage for one party. These districts often look like Rorschach tests: bizarre shapes that have no relevance to reality.
 
 <figure class="right" style="max-width: 30%">
-  <img src="images/PA-District-7.png" alt="PA Congressional District 7"/>
+  <img src="/images/PA-District-7.png" alt="PA Congressional District 7"/>
   <figcaption>Heavily gerrymandered PA Congressional District 7, truly a bizzare shape</figcaption>
 </figure>
 
