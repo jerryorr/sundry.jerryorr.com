@@ -1,3 +1,17 @@
 .mastodon-profile img {
   height: 0.8em;
+  padding-left: .2em;
+}
+
+.site-header .separator {
+  top: 2px;
+  position: relative;
+}
+
+.post h1 {
+  margin-top: 0;
+}
+
+.topic-link {
+  margin-right: .2em;
 }
