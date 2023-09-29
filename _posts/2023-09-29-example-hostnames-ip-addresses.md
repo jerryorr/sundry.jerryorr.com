@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Example hostnames and IP addresses
+title:      Safe hostnames and IP addresses for examples
 date:       2023-09-29
 summary:    
 categories:
