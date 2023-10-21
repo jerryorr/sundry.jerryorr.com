@@ -13,12 +13,18 @@
     {% if site.stackoverflow_id %}
       <a class="fa fa-stack-overflow" href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}"></a>
     {% endif %}
-    <a class="fa fa-rss" href="{{ "/feed.xml" | prepend: site.baseurl }}"></a>
+    <a class="fa fa-rss" href="{{ "/feed.xml" | prepend: site.baseurl }}"
+        aria-label="RSS feed"></a>
     {% if site.twitter_username %}
-      <a class="fa fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"></a>
+      <a class="fa fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"
+          aria-label="Twitter profile: @JerryOnJava"></a>
     {% endif %}
     {% if site.mastodon_profile %}
-      <a class="mastodon-profile" rel="me" href="{{site.mastodon_profile}}"><img src="/images/mastodon-icon-purple.svg"></a>
+      <a class="mastodon-profile" rel="me" href="{{site.mastodon_profile}}"
+          aria-label="Mastodon profile: @jerryorr@fosstodon.org">
+          <img src="/images/mastodon-icon-purple.svg" 
+            width="15.188px" height="16px"
+            alt="Mastodon Logo"></a>
     {% endif %}
     {% if site.skype_username %}
       <a class="fa fa-skype" href="skype:{{ site.skype_username }}?userinfo"></a>

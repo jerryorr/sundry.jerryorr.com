@@ -1,7 +1,7 @@
 # Site settings
 title:       sundry.jerryorr.com
 author:      Jerry Orr
-description: ""
+description: "Various thoughts on programming and technology."
 baseurl:     ""
 url:         "https://sundry.jerryorr.com"
 date_format: "%b %-d, %Y"
