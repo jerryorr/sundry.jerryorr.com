@@ -17,10 +17,24 @@
 }
 
 img.full-width {
+  /* Center on its own line */
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  /* Don't make it overwhelmingly wide */
+  max-width: 75%;
+  /* Maintain aspect ratio */
+  height: auto;
+  /* But don't want it taller than the viewport */
+  max-height: 100vh;
+}
+
+/* For narrower mobile devices */
+@media (max-width: 767px) {
+  img.full-width {
+    /* Let it go full width for mobile */
+    max-width: 100%;
+  }
 }
 
 blockquote p {
