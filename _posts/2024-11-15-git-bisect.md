@@ -8,7 +8,7 @@ tags:       programming
 author:     jerry_orr
 ---
 
-My favorite tool for finding the source of regression bug is `git bisect`. Here's what I knew to start with:
+My favorite tool for finding the source of regression bug is `git bisect`, and I'd like to tell you a story about how I used it today. Here's what I knew to start with:
 
  1. A bug report was filed on October 21 (**almost a month ago**) on our `main` branch.
  2. This bug doesn't exist in the previous version of our software, which was branched from `main` as the branch `release-5.7.0`.
