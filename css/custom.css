@@ -1,6 +1,13 @@
 .mastodon-profile img {
   height: 0.8em;
-  padding-left: .2em;
+}
+
+.mastodon-profile {
+  opacity: 0.65;
+}
+
+.mastodon-profile:hover {
+  opacity: 1;
 }
 
 .site-header .separator {
@@ -39,4 +46,8 @@ img.full-width {
 
 blockquote p {
   font-size: 1rem;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
 }
