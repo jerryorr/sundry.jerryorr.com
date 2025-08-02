@@ -143,3 +143,12 @@ blockquote p {
 blockquote p:last-child {
   margin-bottom: 0;
 }
+
+@keyframes flash-highlight {
+  0%   { background-color: yellow; }
+  100% { background-color: transparent; }
+}
+
+.footnote:target, .link-to-footnote:target {
+  animation: flash-highlight 3s ease-out;
+}
