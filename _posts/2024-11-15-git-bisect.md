@@ -28,7 +28,7 @@ That gives me a "good" commit. To make this easier to follow, we'll call this `c
 
 # Find the commit from when the bug was reported
 
-Since the bug was reported on October 21, I can narrow things down a big by finding a commit where I _know_ the bug existed:
+Since the bug was reported on October 21, I can narrow things down a bit by finding a commit where I _know_ the bug existed:
 
 ```
 git log --before="2024-10-21" -n 1 main
