@@ -128,6 +128,10 @@ img.full-width {
   max-height: 100vh;
 }
 
+img.wrap-right {
+  float: right;
+}
+
 /* For narrower mobile devices */
 @media (max-width: 767px) {
   img.full-width {
