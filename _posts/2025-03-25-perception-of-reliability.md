@@ -36,7 +36,7 @@ That 5% failure rate was effectively doubling the time for my build/test cycle!
 
 As a software developer, this reinforces that I need to be extra vigilant about fixing "intermittent" errors. It doesn't take a very high failure rate for software to go from being considered "reliable" to "flaky garbage".
 
-It also reminded me how important it is to have reliabile development tools. Losing my flow state was killing my productivity, and I need to always be on the lookout for anything else in my development process that could be doing this.
+It also reminded me how important it is to have reliable development tools. Losing my flow state was killing my productivity, and I need to always be on the lookout for anything else in my development process that could be doing this.
 
 * * *
 
