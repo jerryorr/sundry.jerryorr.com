@@ -130,6 +130,8 @@ img.full-width {
 
 img.wrap-right {
   float: right;
+
+  max-width: 40%;
 }
 
 /* For narrower mobile devices */
