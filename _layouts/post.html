@@ -8,34 +8,33 @@ layout: default
 {% endif %}
 {% assign author = site.authors[page.author] %}
 
-<div class="post-header mb2">
-  <h1>{{ page.title }}</h1>
-  <!-- Output author details if some exist. -->
-  {% if author %}
-    <span class="post-meta">
-        by <a href="{{ author.link }}" target="_blank">{{ author.name }}</a>
-    </span>
-  {% endif %}
-  <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
-  {% if page.update_date %}
-    <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
-  {% endif %}
-  <span class="post-meta small">
-    {% for tag in page.tags %}
-      <a href="/topics/{{ tag | downcase }}">{{ tag }}</a>
-    {% endfor %}
-    <br>
-  </span>
-  <span class="post-meta small">
-  {% if page.minutes %}
-    {{ page.minutes }} {{ site.text.post.minute_read }}
-  {% else %}
-    {{ minutes }} {{ site.text.post.minute_read }}
-  {% endif %}
-  </span>
-</div>
-
 <article class="post-content">
+  <div class="post-header mb2">
+    <h1>{{ page.title }}</h1>
+    <!-- Output author details if some exist. -->
+    {% if author %}
+      <span class="post-meta">
+          by <a href="{{ author.link }}" target="_blank" rel="author">{{ author.name }}</a>
+      </span>
+    {% endif %}
+    <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
+    {% if page.update_date %}
+      <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
+    {% endif %}
+    <span class="post-meta small">
+      {% for tag in page.tags %}
+        <a href="/topics/{{ tag | downcase }}">{{ tag }}</a>
+      {% endfor %}
+      <br>
+    </span>
+    <span class="post-meta small">
+    {% if page.minutes %}
+      {{ page.minutes }} {{ site.text.post.minute_read }}
+    {% else %}
+      {{ minutes }} {{ site.text.post.minute_read }}
+    {% endif %}
+    </span>
+  </div>
   {{ content }}
 </article>
 
