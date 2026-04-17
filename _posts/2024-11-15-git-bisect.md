@@ -16,7 +16,7 @@ My favorite tool for finding the source of regression bug is `git bisect`, and I
 
 This is the process I went through to find the change that caused this bug.
 
-# Find a commit where I know things were working
+## Find a commit where I know things were working
 
 Since this bug doesn't exist in `release-5.7.0`, I know that the bug was introduced sometime after that branch was created from `main`:
 
@@ -26,7 +26,7 @@ git merge-base main release-5.7.0
 
 That gives me a "good" commit. To make this easier to follow, we'll call this `commit0001`.
 
-# Find the commit from when the bug was reported
+## Find the commit from when the bug was reported
 
 Since the bug was reported on October 21, I can narrow things down a bit by finding a commit where I _know_ the bug existed:
 
@@ -44,7 +44,7 @@ git rev-list --count commit0001..commit9999
 
 Which tells me that I've narrowed it down to only... **2,088 commits**! Obviously, it's not practical to browse through 2,088 commits trying to guess which one might have caused the bug. 
 
-# `git bisect` to the rescue
+## `git bisect` to the rescue
 
 Fortunately, `git bisect` makes this _way_ easier. I already have a "good" commit where things work, and a "bad" commit where they don't:
 
