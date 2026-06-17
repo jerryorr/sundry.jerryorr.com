@@ -44,4 +44,4 @@ If you've put forth the effort to generate content for me with your own human br
 
 * * *
 
-{%include footnote.html i=1 content="It takes extra effort to be concise! As [Pascal said](https://quoteinvestigator.com/2012/04/28/shorter-letter/): \"I have made [this letter] longer than usual because I have not had time to make it shorter.\"" %}
+{%include footnote.html i=1 content="It takes extra effort to be concise! As Pascal said: \"I have made [this letter] longer than usual because I have not had time to make it shorter.\"" %}
