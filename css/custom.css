@@ -158,3 +158,11 @@ blockquote p:last-child {
 .footnote:target, .link-to-footnote:target {
   animation: flash-highlight 3s ease-out;
 }
+
+figcaption.subtle {
+  font-size: .85rem;
+  line-height: 1.25rem;
+  font-style: italic;
+  color: #777;
+  text-align: center;
+}

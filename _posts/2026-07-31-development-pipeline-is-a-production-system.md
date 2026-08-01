@@ -18,7 +18,10 @@ If the code can't compile, the developers are unable to do their jobs, and the t
 
 If the QA server is down, the testers are unable to do their jobs, and the team isn't producing _working_ software. For the QA team, _this is a production outage_. Fixing it should be a top priority.
 
-<img src="/images/software-assembly-line.png" alt="A software assembly line, on fire" class="full-width"/>
+<figure>
+  <img src="/images/software-assembly-line.png" alt="A software assembly line, on fire" class="full-width"/>
+  <figcaption class="subtle">You will not be shocked to learn that I drew this myself.</figcaption>
+</figure>
 
 In manufacturing, there are [extensive processes and procedures](https://emshandbook.com/vol-12/4/escalation-slas/) on how to prevent and minimize downtime on the assembly line.{%include link-to-footnote.html i=1 %} And similar processes exist for [IT service outages](https://sre.google/resources/practices-and-processes/incident-management-guide). But I've found that most of those focus on outages in the service provided to _customers_, not for the people responsible for _building and supporting the services_.
 
