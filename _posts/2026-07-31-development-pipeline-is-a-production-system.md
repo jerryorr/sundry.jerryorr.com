@@ -2,7 +2,7 @@
 layout:     post
 title:      The development pipeline is a production system
 date:       2026-07-31
-summary:    We should treat the tools and systems in the development pipeline like production systems.
+summary:    When your team's development pipeline goes down, your ability to produce software goes down with it.
 categories:
 tags:       programming technology
 author:     jerry_orr
